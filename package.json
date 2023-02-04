@@ -8,8 +8,7 @@
       "packages/*"
     ],
     "nohoist": [
-      "**/utils",
-      "**/utils/**"
+      "**"
     ]
   },
   "main": "dist/index.js",

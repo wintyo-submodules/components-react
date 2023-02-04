@@ -1,3 +1,6 @@
 [submodule "packages/utils"]
 	path = packages/utils
 	url = git@github.com:wintyo-submodules/utils.git
+[submodule "packages/constants"]
+	path = packages/constants
+	url = git@github.com:wintyo-submodules/constants.git

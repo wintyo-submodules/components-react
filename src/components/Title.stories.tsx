@@ -1,11 +1,12 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { DEFAULT_TITLE } from '@wintyo-submodules/constants';
 import { Title } from './Title';
 
 export default {
   title: 'Example/Title',
   component: Title,
   args: {
-    title: 'タイトル',
+    title: DEFAULT_TITLE,
   },
 } as ComponentMeta<typeof Title>;
 

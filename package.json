@@ -2,6 +2,16 @@
   "name": "@wintyo-submodules/components-react",
   "version": "0.0.0",
   "description": "components for React package",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/utils",
+      "**/utils/**"
+    ]
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
